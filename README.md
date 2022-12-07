@@ -1,4 +1,4 @@
-# Execrcism_Go
+# Exercism_Go
 All about learning Go 
 
 ## Compile to binary
