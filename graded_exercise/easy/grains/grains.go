@@ -18,10 +18,7 @@ func Square(number int) (uint64, error) {
 func Total() uint64 {
 	var sumsHolder uint64
 	for i := 1; i <= 64; i++ {
-		temp, err := Square(i)
-		if err != nil {
-			fmt.Println(err)
-		}
+		temp, _ := Square(i)
 		sumsHolder += temp
 	}
 	return sumsHolder
